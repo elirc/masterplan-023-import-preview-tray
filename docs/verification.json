@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-10-03T22:31:12.819905+00:00",
+  "nodeVersion": "v22.16.0",
+  "nodeChecks": {
+    "command": "node --test",
+    "exitCode": 0,
+    "tests": 5,
+    "output": "TAP version 13\n# Subtest: preview does not commit and successful commit returns a new shelf\nok 1 - preview does not commit and successful commit returns a new shelf\n  ---\n  duration_ms: 7.6262\n  type: 'test'\n  ...\n# Subtest: mixed valid and invalid rows prevent every row from committing\nok 2 - mixed valid and invalid rows prevent every row from committing\n  ---\n  duration_ms: 9.15\n  type: 'test'\n  ...\n# Subtest: text edits and shelf changes invalidate earlier previews\nok 3 - text edits and shelf changes invalidate earlier previews\n  ---\n  duration_ms: 1.7918\n  type: 'test'\n  ...\n# Subtest: existing and within-file duplicate IDs are rejected\nok 4 - existing and within-file duplicate IDs are rejected\n  ---\n  duration_ms: 1.0626\n  type: 'test'\n  ...\n# Subtest: malformed and empty imports are explicit errors; preview is immutable\nok 5 - malformed and empty imports are explicit errors; preview is immutable\n  ---\n  duration_ms: 3.0716\n  type: 'test'\n  ...\n1..5\n# tests 5\n# suites 0\n# pass 5\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 1072.7988\n"
+  },
+  "browserChecks": {
+    "id": 23,
+    "status": "passed",
+    "checks": [
+      "No document horizontal overflow at 1200, 800, 500 and 320 CSS pixels",
+      "First Tab reveals skip link; Enter focuses main",
+      "Preview leaves committed shelf untouched; editing/mixed failures disable commit; version change rejects stale preview; fresh preview commits"
+    ],
+    "browser": "Installed Microsoft Edge via Playwright",
+    "checkedAt": "2026-10-03T22:28:54.307633+00:00",
+    "consoleErrors": []
+  },
+  "scope": "Actual local reference verification. Learner stories are not implemented. Remote CI results are separate."
+}
