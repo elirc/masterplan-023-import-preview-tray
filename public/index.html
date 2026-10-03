@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Import Preview Tray</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header>
+<div class="eyebrow">Fieldwork / MASTERPLAN M023</div>
+<h1>Import Preview Tray</h1>
+<p class="lede">A user needs to review proposed changes before importing a small JSON collection.</p>
+</header>
+<main id="main" tabindex="-1">
+<h2>Preview first, commit explicitly</h2>
+<p>All-or-nothing import. Every row needs a unique non-empty ID and title. Editing the input or changing the shelf invalidates a preview.</p>
+<label for="source">Candidate JSON array</label>
+<textarea id="source" rows="5">[{"id":"b","title":"Callback notes"},{"id":"c","title":"CSS notes"}]</textarea>
+<button id="preview">Preview import</button>
+<button id="commit" disabled>Commit preview</button>
+<button id="change">Simulate shelf change</button>
+<pre id="review">
+</pre>
+<h3>Committed shelf</h3>
+<pre id="shelf">
+</pre>
+<output id="result" aria-live="polite">
+</output>
+</main>
+<footer>Fictional local learning project. <a href="https://github.com/elirc/masterplan-023-import-preview-tray">Source and learning workshop</a>
+</footer>
+<script type="module" src="app.js">
+</script>
+</body>
+</html>

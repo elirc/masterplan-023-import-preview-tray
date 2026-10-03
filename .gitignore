@@ -1,0 +1,10 @@
+node_modules/
+public/bundle.js
+public/bundle.js.map
+.env
+.env.*
+*.log
+coverage/
+my-journal/
+.DS_Store
+Thumbs.db

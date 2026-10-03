@@ -1,0 +1,15 @@
+{
+  "name": "masterplan-023-import-preview-tray",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node tools/serve.mjs",
+    "check": "node tools/check-site.mjs"
+  },
+  "description": "A user needs to review proposed changes before importing a small JSON collection."
+}
