@@ -51,3 +51,18 @@ This is a local educational example with fictional content. There is no producti
 ## Your first independent task
 
 Add a preview summary table: Render accepted and rejected rows with safe text cells and human row numbers. Read its acceptance criteria, create a practice branch, and write your prediction before changing code. Keep your personal notes in `my-journal/`, which is ignored by Git.
+
+<!-- expanded-workbook -->
+
+## Expanded upskilling edition
+
+[Open the expanded workshop map](docs/WORKBOOK-INDEX.md). The original companion is now supplemented by twelve substantial chapters, **15 total practice stories**, twelve saved coaching prompts, guided rebuild sessions, deeper debugging cases, test-design exercises, repeated recall and a twelve-session personal journal.
+
+Start with one route: foundations if syntax is unfamiliar; one story if you can trace the reference; review and test design if you have already made a change. The reference code is unchanged. New features and journal entries remain your work to complete.
+
+- [Foundations clinic](docs/09-FOUNDATIONS-CLINIC.md)
+- [Guided rebuild](docs/10-GUIDED-REBUILD-SESSIONS.md)
+- [Nine additional stories](docs/11-NINE-MORE-STORIES.md)
+- [Agentic practice playbook](docs/13-AGENTIC-PRACTICE-PLAYBOOK.md)
+- [Companion session journal](docs/17-SESSION-JOURNAL.md)
+- [Mentor hints after your attempt](docs/20-MENTOR-HINTS.md)

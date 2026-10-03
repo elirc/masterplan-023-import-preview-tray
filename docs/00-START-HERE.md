@@ -41,3 +41,9 @@ If that explanation is shaky, repeat one example with a different value. If it i
 - Your personal journal records a remaining uncertainty honestly.
 
 Plan for several focused 45–75 minute sessions, with more time if setup or syntax is new. There is no reward for hiding confusion to meet a schedule. The implementation is supplied as a reference so you can inspect a finished result while still owning your practice work.
+
+<!-- expanded-route -->
+
+## Continue into the expanded workshop
+
+[Choose a route through the larger workbook](WORKBOOK-INDEX.md). Begin with a single clinic or story rather than reading every chapter before trying a change. The twelve-session journal and mentor hints support repeated practice without marking exercises complete for you.
