@@ -20,7 +20,7 @@ The relevant promise is: Import accepts a nonempty JSON array of rows with nonem
 
 ### Keep two hypotheses alive
 
-Hypothesis A: the owning rule near `previewImport` is wrong. Hypothesis B: the rule is correct but `public/app.js` supplies or presents the wrong value or state. For a static page, translate this distinction into the correct content with the wrong CSS rule versus incorrect markup or a missing target. Name the observation each hypothesis predicts.
+Hypothesis A: the owning rule near `previewImport` is wrong. Hypothesis B: the rule is correct but `public/app.js` supplies or presents the wrong value or state. Name the observation each hypothesis predicts.
 
 Use the smallest controlled experiment that makes the predictions differ. Reading more files is not always a better experiment. A single exact boundary value, a changed call order or a computed style can be more decisive than a large random fixture. Record the outcome before making the repair.
 
@@ -56,7 +56,7 @@ The relevant promise is: Import accepts a nonempty JSON array of rows with nonem
 
 ### Keep two hypotheses alive
 
-Hypothesis A: the owning rule near `previewImport` is wrong. Hypothesis B: the rule is correct but `public/app.js` supplies or presents the wrong value or state. For a static page, translate this distinction into the correct content with the wrong CSS rule versus incorrect markup or a missing target. Name the observation each hypothesis predicts.
+Hypothesis A: the owning rule near `previewImport` is wrong. Hypothesis B: the rule is correct but `public/app.js` supplies or presents the wrong value or state. Name the observation each hypothesis predicts.
 
 Use the smallest controlled experiment that makes the predictions differ. Reading more files is not always a better experiment. A single exact boundary value, a changed call order or a computed style can be more decisive than a large random fixture. Record the outcome before making the repair.
 
@@ -92,7 +92,7 @@ The relevant promise is: Import accepts a nonempty JSON array of rows with nonem
 
 ### Keep two hypotheses alive
 
-Hypothesis A: the owning rule near `previewImport` is wrong. Hypothesis B: the rule is correct but `public/app.js` supplies or presents the wrong value or state. For a static page, translate this distinction into the correct content with the wrong CSS rule versus incorrect markup or a missing target. Name the observation each hypothesis predicts.
+Hypothesis A: the owning rule near `previewImport` is wrong. Hypothesis B: the rule is correct but `public/app.js` supplies or presents the wrong value or state. Name the observation each hypothesis predicts.
 
 Use the smallest controlled experiment that makes the predictions differ. Reading more files is not always a better experiment. A single exact boundary value, a changed call order or a computed style can be more decisive than a large random fixture. Record the outcome before making the repair.
 

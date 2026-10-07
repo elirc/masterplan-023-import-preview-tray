@@ -12,7 +12,7 @@ These are deliberately proposed defects for a scratch branch. They are not claim
 
 ### Worked diagnosis
 
-First state the expected contract: Import accepts a nonempty JSON array of rows with nonempty string IDs and titles, trims those fields, ignores extra fields, and rejects IDs already in the shelf or repeated within the candidate file. Preview reports accepted and rejected rows without changing the shelf. Commit is all-or-nothing and requires an unchanged source string and shelf version. A successful commit returns a new shelf; a stale or partially invalid preview cannot commit. Then create the smallest example from the experiment above. Compare the observed result with the contract before changing more code. The likely cause is at this boundary: **public/core.js: preview is a read-only transformation.** Repair that boundary, rerun the example, and check one neighboring valid case so the repair does not merely special-case the chosen input.
+First restate the expected contract from the [concepts guide](02-CONCEPTS-AND-TRACES.md#the-exact-contract) in your own words. Then create the smallest example from the experiment above. Compare the observed result with the contract before changing more code. The likely cause is at this boundary: **public/core.js: preview is a read-only transformation.** Repair that boundary, rerun the example, and check one neighboring valid case so the repair does not merely special-case the chosen input.
 
 The completed reasoning record is: symptom → contract violated → input that distinguishes hypotheses → owning line or rule → minimal repair → regression evidence. This is a worked diagnostic route; fill in your actual outputs when you run it. No invented console transcript is supplied.
 

@@ -20,13 +20,13 @@ Start with one valid candidate, one missing title, one ID already in the shelf a
 
 Read the frozen accepted objects and arrays. They prevent accidental edits to the approval candidate in this local flow. The trusted app is the only caller; freezing is not a security barrier against arbitrary code. The meaningful guarantee is that rendering does not mutate the candidate before commit.
 
-**Pause and produce evidence:** Edit input after preview. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** One valid and one invalid row. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 3: Invalidate on every relevant change
 
 Editing the textarea clears preview and disables commit. Simulating a shelf change increments its version, and the core catches that mismatch even if the earlier button is still enabled. This dual demonstration separates user-interface guidance from the rule that actually protects the state transition.
 
-**Pause and produce evidence:** Shelf version changes after preview. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Edit input after preview. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 4: Commit a fresh valid proposal
 

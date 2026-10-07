@@ -6,8 +6,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 01: Add a preview summary table
 
-**User need:** As a learner or user of Import Preview Tray, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Render accepted and rejected rows with safe text cells and human row numbers.
 
 **Implementation plan:**
@@ -26,8 +24,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 02: Support cancel preview
-
-**User need:** As a learner or user of Import Preview Tray, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Clear only the candidate and review output while leaving source text and committed shelf intact.
 
@@ -48,8 +44,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 03: Add a maximum row count
 
-**User need:** As a learner or user of Import Preview Tray, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Choose a small documented import limit and reject oversized arrays before row processing.
 
 **Implementation plan:**
@@ -68,8 +62,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 04: Report ignored extra fields
-
-**User need:** As a learner or user of Import Preview Tray, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Add nonblocking preview warnings for fields outside id/title without retaining them in committed items.
 
@@ -90,8 +82,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 05: Add duplicate-specific guidance
 
-**User need:** As a learner or user of Import Preview Tray, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Differentiate duplicate against the shelf from duplicate within the file.
 
 **Implementation plan:**
@@ -110,8 +100,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 06: Explore partial import on a branch
-
-**User need:** As a learner or user of Import Preview Tray, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Write a replacement contract for partial success before changing commit behavior; define retry and duplicate handling.
 

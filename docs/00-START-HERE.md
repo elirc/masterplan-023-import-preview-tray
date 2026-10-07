@@ -12,7 +12,7 @@ Open [public/core.js](../public/core.js) and locate `previewImport`. You do not 
 
 ## Session 2 — reconstruct one small slice
 
-Read the build walkthrough, close it, and reproduce one meaningful slice in a scratch branch or separate practice file. For a static page, recreate one region from semantic content before adding layout. For a function, write the input and output examples before its body. For the Git exercise, demonstrate the distinction between staged and saved content before using the helper.
+Read the build walkthrough, close it, and reproduce one meaningful slice in a scratch branch or separate practice file. For a function, write the input and output examples before its body.
 
 Compare your attempt with the reference only after you can point to a concrete uncertainty. Write down why the reference makes a different choice. A difference is not automatically an error: compare the user contract and the counterexamples. If both implementations satisfy the same contract, explain which is easier for you to maintain and why.
 
